@@ -9,15 +9,10 @@ This repository is a module of the full [primer-css][primer] repository.
 
 ## Documentation
 
-You can read more about breadcrumbs in the [docs][docs].
-
 <!-- %docs
 title: Breadcrumbs
-homepage: https://github.com/primer/primer-breadcrumb
 status: Stable
 -->
-
-### Breadcrumbs
 
 Breadcrumbs are used to show taxonomical context on pages that are many levels deep in a site’s hierarchy. Breadcrumbs show and link to parent, grandparent, and sometimes great-grandparent pages. Breadcrumbs are most appropriate on pages that:
 
