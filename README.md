@@ -23,11 +23,13 @@ Breadcrumbs are used to show taxonomical context on pages that are many levels d
 #### Usage
 
 ```html
-<ol>
-  <li class="breadcrumb-item text-small"><a href="/business">Business</a></li>
-  <li class="breadcrumb-item text-small"><a href="/business/customers">Customers</a></li>
-  <li class="breadcrumb-item breadcrumb-item-selected text-small text-gray">MailChimp</li>
-</ol>
+<nav aria-label="Breadcrumb">
+  <ol>
+    <li class="breadcrumb-item text-small"><a href="/business">Business</a></li>
+    <li class="breadcrumb-item text-small"><a href="/business/customers">Customers</a></li>
+    <li class="breadcrumb-item breadcrumb-item-selected text-small text-gray" aria-current="page">MailChimp</li>
+  </ol>
+</nav>
 ```
 
 <!-- %enddocs -->
